@@ -1,0 +1,64 @@
+
+
+li {
+    width: 125px;
+    margin: 10px;
+    list-style: none;
+    float: left;
+    color: #fff;
+    
+    
+
+    
+}
+ul {
+    background-color: black;
+}
+
+.titolo {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+.blogimg {
+    background: url("img/jane.jpg") center center/cover no-repeat;    
+    padding: 300px 0;
+    color: #fff;
+    
+    
+}
+
+h4 {
+    margin-left: 30px;
+}
+h2 {
+    margin-left: 30px;
+}
+.col-8 h3 {
+    text-align: center;
+    margin-top: 20px;
+
+}
+.col-8 p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+.col-4 {
+    margin-top: 20px;
+}
+
+
+
+
+
+
