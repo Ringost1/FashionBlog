@@ -1,7 +1,10 @@
-
+.header {
+    background-color: black;
+    color: #fff;
+}
 
 li {
-    width: 125px;
+    width: 137px;
     margin: 10px;
     list-style: none;
     float: left;
@@ -11,29 +14,40 @@ li {
 
     
 }
-ul {
-    background-color: black;
-}
+
 
 .titolo {
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
+    margin-left: 400px;
+    
 
 }
-.blogimg {
-    background: url("img/jane.jpg") center center/cover no-repeat;    
-    padding: 300px 0;
+
+.titolo p span {
+    background-color: black;
     color: #fff;
     
+
+
+}
+
+.blogimg {
+    background: url("img/jane.jpg") center center/cover no-repeat;    
+    padding: 300px 203px;
+    color: #fff;
+    padding-left: 937px;
+    
     
 }
 
-h4 {
-    margin-left: 30px;
+.blogimg h4 {
+    margin-left: -900px;
+    
 }
-h2 {
-    margin-left: 30px;
+.blogimg h2 {
+    margin-left: -900px;
 }
 .col-8 h3 {
     text-align: center;
@@ -45,10 +59,54 @@ h2 {
     margin-top: 20px;
 }
 
+.girlhat {
+    width: 728px;
+    padding: 0;
+}
+
+.avatarsmoke {
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.manhat {
+    margin-top: 50px;
+}
+.runway {
+    margin-top: 50px;
+}
 
 .col-4 {
     margin-top: 20px;
+    color:black;
+    
 }
+.card-body {
+    background-color: black;
+    color: #fff;
+}
+.col-4 ul li {
+    color: black;
+}
+
+.card1 {
+    height: 40px;
+    width: 40px;
+}
+.Advertise {
+    color: black;
+    
+}
+
+.card-img-top {
+    max-width: 100%;
+}
+
+
+
+
+
 
 
 

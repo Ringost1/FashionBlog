@@ -7,15 +7,17 @@
     <title>Blog</title>
     <link rel="stylesheet" href="Blog.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
 </head>
 <body>
 
     <div class="container">
+        <div class="row">
         
-            <div>
-    
+            <div class="header">
+        
                 <ul>
-                    
+                        
                     <li><a href="www.facebook.com"><i class="fab fa-facebook-square"></i></a></li>
                     
                     <li><a href="www.facebook.com"><i class="fab fa-instagram"></i></a></li>
@@ -27,8 +29,8 @@
                     <li><a href="www.facebook.com"><i class="fab fa-twitter"></i></a></li>
                     
                     <li><a href="www.facebook.com"><i class="fab fa-linkedin"></i></a></li>
-                    <button><li><i class="fas fa-search"></i></li></button>
-                    
+                    <li><i class="fas fa-search"></i></li>
+                        
                 </ul>
             </div>
 
@@ -37,20 +39,23 @@
 
         
 
-        <div class="titolo">
+            <div class="titolo">
 
-            <h3>JANE BLOGLIFE</h3>
-            <p>Welcome to the Blog of Jane's world</p>
-        </div>
+                <h3>JANE BLOGLIFE</h3>
+                <p>Welcome to the Blog of <span>Jane's world</span></p>
+            </div>
 
-        <div class="blogimg">
+            <div class="blogimg">
 
-            <h4>Jane's</h4>
-            <h2>FASHION BLOG</h2>
-            <button>Subscribe</button>
-            
+                <h4>Jane's</h4>
+                <h2>FASHION BLOG</h2>
+                <button class="btn btn-primary" type="submit" data-toggle="modal" data-target="#exampleModal">Subscribe</button>
+                
+                
+                
 
 
+            </div>
         </div>
 
         
@@ -63,37 +68,187 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-8">
+            <div class="col-lg-8 col-md-12">
                 <h3>TITLE HEADING</h3>
                 <p>Title Description,May 2,2016</p>
-                <img src="img/girl_hat.jpg" alt="">
+                <img class="girlhat" src="img/girl_hat.jpg" alt="">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eveniet cum temporibus odio quos ea facere laudantium, ad fugit nam illum aut quasi! Explicabo sequi consequatur excepturi odit eveniet optio?</p>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem atque, ipsam in aut doloremque rem ullam quisquam, numquam nesciunt perspiciatis unde fuga id qui a accusantium ut repellendus nam tempore.</p>
                 <button>Like</button>
                 <button>Replies</button>
+                <div>
+                    <img class="avatarsmoke" src="img/avatar_smoke.jpg" alt="">
+                    
+                </div>
+
+                <div class="manhat">
+                    <div class="card">
+                            <h3>TITLE HEADING</h3>
+                            <p>Title Description,Aprile 23,2016</p>
+                            
+                            <img src="img/man_hat.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui numquam aliquam atque nulla, rerum nobis laborum, fugit vero, placeat quae magni ducimus! Nesciunt voluptate quibusdam veritatis nihil doloribus tempora consequuntur.</p>
+                            <button>Like</button>
+                            <button>Replies</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="runway">
+                    <div class="card">
+                            <h3>TITLE HEADING</h3>
+                            <p>Title Description,Aprile 7,2016</p>
+                            <img src="img/runway.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, placeat sunt eius voluptas culpa fuga a, nam maxime, nostrum facilis ad numquam aliquam distinctio optio debitis similique iusto tempora odit?</p>
+                          <button>Like</button>
+                          <button>Replies</button>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
     
     
     
-            <div class="col-4">
-                <div class="card" style="width: 18rem;">
+            <div class="col-lg-4 col-md-12">
+                <div class="card">
                     <img src="img/avatar_girl2.jpg" class="card-img-top" alt="">
                     <div class="card-body">
                       <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus earum iure debitis consectetur animi hic reprehenderit incidunt. Rerum eveniet architecto tempora, ratione repellat quia nulla similique exercitationem beatae inventore explicabo?</p>
                     </div>
-                  </div>
-                  <div class="card" style="width: 18rem;">
+                </div>
+                <div class="card">
                     <div class="card-header">
                       Popular Posts
                     </div>
                     <ul class="list-group list-group-flush">
-                      <li class="list-group-item">Cras justo odio</li>
-                      <li class="list-group-item">Dapibus ac facilisis in</li>
-                      <li class="list-group-item">Vestibulum at eros</li>
+                      <li class="list-group-item"><img class="card1" src="img/avatar_smoke.jpg" alt="">Denim</li>
+                      <li class="list-group-item"><img class="card1" src="img/bandmember.jpg" alt="">Sweaters</li>
+                      <li class="list-group-item"><img class="card1" src="img/workshop.jpg" alt="">Workshop</li>
+                      <li class="list-group-item"><img class="card1" src="img/avatar_smoke.jpg" alt="">Trends</li>
                     </ul>
-                  </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                      Advertise
+                    </div>
+                    <div class="card">
+                        <div class="card">
+                          
+                          <p class="Advertise">Your AD Here</p>
+                          
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div class="row row-cols-1 row-cols-md-2">
+                    <div class="col mb-4" style="width: 10rem;">
+                        <div class="card">
+                            <img src="img/jeans.jpg" class="card-img-top" alt="...">
+                        
+                        </div>
+                    </div>
+                    <div class="col mb-4" style="width: 10rem;">
+                        <div class="card">
+                            <img src="img/avatar_hat.jpg" class="card-img-top" alt="...">
+                        
+                        </div>
+                      
+                    </div>
+                    <div class="col mb-4" style="width: 10rem;">
+                        <div class="card">
+                            <img src="img/team1.jpg" class="card-img-top" alt="...">
+                        
+                        </div>
+                    
+                    </div>
+                    <div class="col mb-4" style="width: 10rem;">
+                        <div class="card">
+                            <img src="img/team4.jpg" class="card-img-top" alt="...">
+                        
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="card-body">
+                      Follow Me
+                    </div>
+                    <div class="card">
+                        <div class="card">
+                            <ul>
+                          
+                                <li><a href="www.facebook.com"><i class="fab fa-linkedin"></i></a></li>
+                                <li><a href="www.facebook.com"><i class="fab fa-linkedin"></i></a></li>
+                                <li><a href="www.facebook.com"><i class="fab fa-linkedin"></i></a></li>
+                                <li><a href="www.facebook.com"><i class="fab fa-linkedin"></i></a></li>
+                            </ul>
+                          
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="card-body">
+                      Subscribe
+                    </div>
+                    <div class="card">
+                        <div class="card">
+                          
+                          <p>Enter your e-mail below and get notified on the latest blog posts.</p>
+                          <button class="btn btn-primary" type="submit">Subscribe</button>
+                          
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                
+
+
+                
                   
             </div>
+
+
+            
+                
+            
+            
+            
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Subscribe</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            
+                            <button type="button" class="btn btn-primary">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                        
+            
     
         </div>
     </div>
@@ -107,7 +262,7 @@
 
 
 
-
+<script src="Blog.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
